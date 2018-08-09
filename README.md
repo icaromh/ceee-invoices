@@ -5,19 +5,31 @@ Navigate through the ["CEEE - Agência Virtual"](https://servicos.ceee.com.br/Ag
 
 ### Setup
 
+install the dependencies
+
 ```sh
 yarn
     # or npm install
 ```
 
+create a `.env` file and fill with the values
+
+```
+CPF=""
+PASSWORD=""
+TELEGRAM_KEY="BOT_ACESS_KEY"
+TELEGRAM_USER="USER/CHAT_TO_SEND_MESSAGE"
+```
+
 ### Running
 
 ```sh
-CPF="your_cpf" PASSWORD="your_passd" node index.js
+node index.js
+   # or npm start
 ```
 
 ### Result
 
 The result is the an image like below:
 
-![Table of invoices](./example.png)
+![Table of invoices](./docs/example.png)
